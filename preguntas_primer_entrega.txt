@@ -1,0 +1,5 @@
+hacer el formulario de comentario o preguntas a una publicación ?
+hacer galeria de imagenes en cada publicación de un juego ?
+¿como construir la página detallada de cada juego ? con una lista o una tabla ?
+¿Diseño layout en html?
+¿la parte de la compra de juego queda para las proximas entregas?

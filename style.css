@@ -1,0 +1,323 @@
+body,html {
+	text-align: center;
+	background-image: url(images/fondo1.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+p {
+	font-size:16px;
+	font-family: arial;
+}
+table {
+	margin: auto;
+	font-size:20px;
+}
+
+ /*	 INICIO	*/
+
+ #barra  {
+	padding: 0px 0 0px ;
+	margin: 0 15px 0 15px;
+	background-color: rgba(124,124,124,0.5);
+	border:1px solid gray;
+	border-radius: 5px;
+	margin-top: -10px;	
+	z-index: 1;
+	position: fixed;
+	right: 0px;
+	left: 0px;
+}
+#barra a{
+	color: whitesmoke;
+	font-weight: bold;
+	margin: 4px;
+	font-family: arial;
+	font-size: 24px;  
+}
+#barra_index li{
+	display:inline-block;
+	padding: 0 30px;
+}
+
+
+
+ 			/* REGISTRO */
+#barra-registro {
+	padding: 0px 0 0px ;
+	margin: 0 15px 0 15px;
+	background-color: rgba(124,124,124,0.5);
+	border:1px solid gray;
+	border-radius: 5px;
+	margin-top: -10px;	
+	z-index: 1;
+	position: fixed;
+	right: 0px;
+	left: 0px;
+}
+#barra-registro a {
+	color: whitesmoke;
+	font-weight: bold;
+	margin: 4px;
+	font-family: arial;
+	font-size: 24px;  
+}
+#barra-registro li {
+	display: inline-block;
+	 padding: 0px 0 0px ;
+}
+ul {
+	list-style-type: none;	
+}
+a {	
+	text-decoration: none;
+}
+h1 {
+	font-size:40px;
+	text-shadow: 5px 5px 12px yellow ;
+}
+h2 {
+	font-size:38px;
+	color: black;
+	text-shadow: 5px 5px 12px yellow ;
+}
+.listas div { 
+	height: auto;
+	border:1px;
+	margin:	15px 15px;
+	padding: 10px;
+	box-shadow: 0 0 12px 2px black;
+	display: inline-block;
+	overflow: auto;
+	list-style-position: inside;
+	background-color: rgba(5,5,4, 0.7);
+}
+.listas div a {
+	font-size: 20px;
+	color: yellow;
+	font-family: arial;
+}
+.listas div .img {
+	opacity: 1;
+}
+.listas ul {
+	padding-top: 35px;
+}
+#h1_contacto {
+	margin-top: 
+}
+
+
+#consulta {
+	color: white;
+	font-family: arial;
+	font-size: 25px;
+}
+
+  /* 	INICIO SESION */
+
+#barra-iniciarsesion {
+	padding: 0px 0 0px ;
+	margin: 0 10px 0 10px;
+	background-color: rgba(124,124,124,0.5);
+	border:1px solid gray;
+	border-radius: 5px;
+	margin-top: -10px;	
+	z-index: 1;
+	position: fixed;
+	right: 0px;
+	left: 0px;	
+}
+#barra-inicio a{
+	color: whitesmoke;
+	font-weight: bold;
+	margin: 4px;
+	font-family: arial;
+	font-size: 24px;  
+}
+#barra-inicio li {
+	display: inline-block;
+	padding: 0 30px;
+}
+#h1_iniciar h1 {
+	margin-bottom:110px;
+}
+/* 	DETALLE JUEGOS */
+
+
+.carousel {
+	display: inline-table;
+	flex: 0 0 auto;
+	position: relative;
+	vertical-align: center;
+}
+#barra-detalle {
+	padding: 0px 0 0px ;
+	margin: 0 15px 0 15px;
+	background-color: rgba(124,124,124,0.5);
+	border:1px solid gray;
+	border-radius: 5px;
+	margin-top: -10px;	
+	z-index: 1;
+	position: fixed;
+	right: 0px;
+	left: 0px;	
+}
+#barra-detalle a {
+	color: whitesmoke;
+	font-weight: bold;
+	margin: 4px;
+	font-family: arial;
+	font-size: 24px;  
+}
+#barra-detalle li {
+	display: inline-block;
+	padding: 0 20px;
+}
+p {
+	color: yellow;
+	font-size: 23px;
+	font-family: arial;
+}
+
+ /*  CATALOGO  */
+ #barra-catalogo {
+ 	padding: 0px 0 0px ;
+	margin: 0 15px 0 15px;
+	background-color: rgba(124,124,124,0.5);
+	border:1px solid gray;
+	border-radius: 5px;
+	margin-top: -10px;	
+	z-index: 1;
+	position: fixed;
+	right: 0px;
+	left: 0px;	
+ }
+ #barra-catalogo a {
+ 	color: whitesmoke;
+	font-weight: bold;
+	margin: 4px;
+	font-family: arial;
+	font-size: 24px;  
+ }
+ #barra-catalogo li{
+ 	display: inline-block;
+ }
+
+ /*    CONTACTO    */
+ #barra-contacto {
+ 	padding: 0px 0 0px ;
+	margin: 0 15px 0 15px;
+	background-color: rgba(124,124,124,0.5);
+	border:1px solid gray;
+	border-radius: 5px;
+	margin-top: -10px;	
+	z-index: 1;
+	position: fixed;
+	right: 0px;
+	left: 0px;
+ }
+ #barra-contacto a {
+ 	color: whitesmoke;
+	font-weight: bold;
+	margin: 4px;
+	font-family: arial;
+	font-size: 24px;  
+ }
+#barra-contacto li {
+	padding: 0 30px;
+	display: inline-block;
+	margin-top: 0;	
+}
+
+ /*  RESPONSIVE*/
+
+@media only screen and (max-width: 1200px) {
+	 body {
+	 	text-align: center;
+	background-image: url(images/fondo1.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	 }
+	 #barra_index li {
+	 	display:inline-block;	
+	 }
+	 #barra-inicio li {
+	 	display: inline-block;
+	 }
+	 #barra-contactoli li{
+	 	display: inline-block;
+	 }
+	 #barra-catalogoli li {
+	 	display: inline-block;
+	 }
+	 #barra-detaleli li {
+	 	display: inline-block;
+	 }
+	 #barra-registroli li {
+	 	display: inline-block;
+	 }
+    h2 {
+    	margin-top: 110px;
+    }
+
+@media only screen and (max-width: 700px) {
+ 	#barra_index li {
+ 		display: inline-block;
+ 	}
+ 	#barra-inicio li {
+	 	display: inline-block;
+	 }
+	 #barra-contactoli li{
+	 	display: inline-block;
+	 }
+	 #barra-catalogoli li {
+	 	display: inline-block;
+	 }
+	 #barra-detaleli li {
+	 	display: inline-block;
+	 }
+	 #barra-registroli li {
+	 	display: inline-block;
+	 }
+ 	body {
+ 		text-align: center;	
+ 		background-image:url(images/fondo1.jpg);
+ 		background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+ 	}
+ }
+
+@media only screen and (max-width: 500px) {
+ 	#barra_index li {
+ 		display: block;
+ 	}
+ 	#barra-inicio li {
+	 	display: block;
+	 }
+	 #barra-contactoli li{
+	 	display: block;
+	 }
+	 #barra-catalogoli li {
+	 	display:block;
+	 }
+	 #barra-detaleli li {
+	 	display: block;
+	 }
+	 #barra-registroli li {
+	 	display:block;
+	 }
+ 	body {
+ 		text-align: center;	
+ 		background-image:url(images/fondo1.jpg);
+ 		background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+ 	}
+ }
+ .listas div li {
+ 	display: block;
+ 	width: 80%;
+ }

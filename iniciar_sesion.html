@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Iniciar sesión</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="principal">
+		<div id="barra-iniciarsesion">
+			<ul id="barra-inicio">
+				<input type="search" name="Juego" id="id_juego" value="">
+				<input type="submit" value="buscar" >
+				<li><a href="index.html">Inicio </a></li>
+				<li><a href="catalogo.html">Catálogo de juegos </a></li>
+				<li><a href="crear_cuenta.html">Registrarme  </a></li>
+				<li><a href="contacto.html">Contacto </a></li>
+			</ul>
+		</div>
+		<div><br><br></div>
+		<div id="h1_iniciar">
+			<h1>INICIAR SESIÓN</h1>
+		</div>
+		<p>En una cuenta existente</p>
+		<div>
+			<form>
+				<input type="text" name="usuario" required >
+				<input type="password" name="contraseña" required required minlength="8" maxlength="24" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+				<input type="submit" name="Iniciar " value="Iniciar sesión">
+			</form>
+		</div>
+		<div>
+			<br>
+			<p>Si no tienes una , puedes registrarte aquí</p>
+			<a type="button" href="crear_cuenta.html"><input type="submit" name="Regristrarme" value="Crear cuenta"></a>
+		</div>
+	</body>
+	</html>

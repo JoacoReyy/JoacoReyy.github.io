@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="script.js"></script>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<script src="mi-scriptcompra.js"></script>
+</head>
+<body>
+	<div id="barra-iniciarsesion">
+			<ul id="barra-inicio">
+				<input type="search" name="Juego" id="id_juego" value="">
+				<input type="submit" value="buscar" >
+				<li><a href="index.html">Inicio </a></li>
+				<li><a href="catalogo.html">Catálogo de juegos </a></li>
+				<li><a href="crear_cuenta.html">Registrarme  </a></li>
+				<li><a href="contacto.html">Contacto </a></li>
+			</ul>
+		</div>
+		<br><br>
+	<h1>Comprar &juego</h1>
+	<h2>Precio: $150</h2>
+	<form>
+		<div>
+			<label for="cantidad">Cantidad a comprar</label>
+			<input id="cantidad" type="number" value="1">
+		</div>
+		<div>
+				<label for="pago" ><strong>Seleccionar medio de pago</strong></label>
+            </div>
+            <div>
+            	<input id="Efectivo" type="radio" name="Medio" required>
+                <label for="Efectivo">Efectivo</label>
+
+                <input id="Ebrou" type="radio" name="Medio" required>
+                <label for="Ebrou">Ebrou</label>
+
+                <input id="Visa" type="radio" name="Medio" checked required >
+                <label for="Visa">Visa</label>
+
+                <input id="MasterCard" type="radio" name="Medio" required>
+                <label for="MasterCard">MasterCard</label>
+            </div>
+			</div>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text" required >
+            </div>
+            <div>
+            	<label for="email">Mail</label>
+            	<input type="email" name="Correo" required>
+            </div>
+            <div>
+            	<label for="tipo"><strong>Formato de compra:</strong></label>
+            </div>
+            <div>
+            	<input type="radio" name="Fisico" value="Digital" required>
+            	<label for="fisico">Digital</label>
+            	<input type="radio" name="Fisico" value="Fisico" >
+            	<label for="fisico">Fisico</label>
+            </div>
+            <div>
+                <label for="fisico">Dirección</label>
+                <input id="fisico" type="text" disabled>
+            </div>
+            <div>
+            	<label for="envio"><strong>Tipo de envio:</strong></label>
+            </div>
+		<div>
+			<input id="express" type="radio" name="envio" checked>
+			<label for="Envio Express">Envio express</label>
+		</div>
+		<div>
+			<input id="premium" type="radio" name="envio">
+			<label for="Envio premium">Envio premium</label>
+		</div>
+		<div>
+			<h4>Costo de envio: <strong id="total-envio"></strong></h5>
+			<h3>Subtotal (sin imp.): $<strong id="subtotal"></strong></h4>
+			<h2>Total (imp. incluidos): $<strong id="total"></strong></h3>
+		</div>
+	</form>
+
+</body>
+</html>

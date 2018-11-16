@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contacto</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="principal">
+		<div id="barra-contacto">
+			<ul id="barra-contactoli">
+				<li><a href="index.html">Inicio</a> </li>
+				<li><a href="catalogo.html">Catálogo de juegos </a></li>
+				<li><a href="iniciar_sesion.html">Iniciar Sesión</li>
+				<li><a href="crear_cuenta.html">Registrarme  </a></li>
+			</ul> 	
+		</div>
+		<br>
+		<br>
+			<form method="POST" >
+			<h1 id="h1_contacto" >Enviar comentario o consulta:</h1>
+			<table>
+				<tr><td align="left"><label for="campo1">Nombre:</label></td>
+				<td ><input type="text" id="campo1" name="Nombre" required maxlength="30" ></td></tr>
+				<tr><td align="left"><label for="campo2">Email:</label></td>
+				<td ><input type="email" id="campo2" name="correo" autofocus required ></td></tr>
+				<tr><td align="left"><label for="campo3">Contraseña:</label></td>
+				<td><input type="password" id="campo3" name="contraseña" required minlength="8" maxlength="24" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"></td></tr>
+				<tr><td align="left"><label for="campo4">Comentario:</label></td>
+				<td><textarea id="campo4" name="descripcion"></textarea></td></tr>
+			</table>
+			<input type="submit" name="Enviar">
+		</form>
+</body>
+</html>	
